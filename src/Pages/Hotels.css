@@ -1,0 +1,164 @@
+.hotel-head {
+    background: url(../img/Banner\ \ Background.svg), linear-gradient(100.3deg, #0B5BA8 1.87%, #299BD8 120.69%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 193px;
+
+}
+
+.hotel-head-title {
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+    padding-top: 40px;
+}
+
+.hotel-head-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.hotel-head-buttons button {
+    padding: 11px 21px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 27px;
+    background: none;
+    font-weight: 500;
+}
+
+.hotel-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hotel-section .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel-section .top .left-text {
+    font-size: 18px;
+    letter-spacing: 4%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hotel-section .top .right-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.results-parent {
+    height: 919px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.results-card-parent {
+    width: 562px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result-card{
+    width: 562px;
+    height: 221px;
+    border-radius: 10px;
+    background-color: #1262AF0D;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.result-details{
+    width: 286px;
+    height: 221px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.result-details .text{
+    color: #8E8E94;
+}
+
+.result-details .text-parent{
+    display: flex;
+    width: 249px;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.result-details .top{
+    width: 273px;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.result-details .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #303030;
+    letter-spacing: 4%;
+}
+
+.result-details .rating{
+    display: flex;
+    gap: 4px;
+    color: #1262AF;
+    letter-spacing: 4%;
+}
+
+.result-details .rating nav{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: #303030;
+    font-weight: 500;
+}
+
+.result-card .bottom{
+    width: 164px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.result-card .price{
+    font-size: 14px;
+    letter-spacing: 2%;
+    color: #303030;    
+}
+
+.result-card .price span{
+    font-size: 22px;
+    font-weight: 700;   
+}
+
+.result-card button{
+    width: 164px;
+    height: 46px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1262AF;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 4%;
+}

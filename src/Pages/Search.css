@@ -1,0 +1,374 @@
+.search-section-1{
+    background: url(../img/Banner\ \ Background.svg), linear-gradient(100.3deg, #114F8B 1.87%, #2A9AD7 120.69%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 362px;
+}
+
+.search-s1-title{
+    color: white;
+    font-size: 61px;
+    font-weight: 900;
+    padding-top: 80px;
+}
+
+.search-section-1 form{
+    width: 100%;
+    height: 106px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.search-form-bottom {
+    width: 1120px;
+    height: 66px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form-bottom input {
+    width: 305px;
+    height: 56px;
+    border: 1px solid #0000003B;
+    border-radius: 4px;
+}
+
+.inp-box {
+    position: relative;
+}
+
+.search-form-bottom label {
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    color: #00000099;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.search-form-bottom button{
+    width: 164px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F99A0E;
+    color: white;
+    font-size: 15px;    
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input:focus{
+    outline: none;
+    padding-left: 15px;
+}
+
+
+.search-section-2{
+    padding: 50px 120px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: roboto;
+}
+
+.search-s2-left{
+    width: 253px;
+    height: 666px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.search-s2-left p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #57575D;
+    height: 47px;
+}
+
+.search-s2-left-box{
+    height: 106px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.search-s2-left-box .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #57575D;
+}
+
+.search-s2-left-box .text{
+    font-size: 17px;
+    display: flex;
+    gap: 12px;
+}
+
+input[type="checkbox"]{
+  transform: scale(1.5);
+}
+
+.search-s2-left-box nav{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.search-s2-left .line{
+    width: 228px;
+    height: 1px;
+    background-color: #EAEAEA;
+}
+
+.search-s2-center{
+    width: 746px;
+    height: 889px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.search-s2-center p{
+    font-size: 18px;
+    color: #7E8B97;
+}
+
+.search-s2-center .box{
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+    border: 0.7px solid #CECECE;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 6px;
+    justify-content: space-between;
+}
+
+.box-title{
+    width: 175px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #57575D;
+}
+
+.box-details{
+    width: 331px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.box-details-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-details .time{
+    font-size: 21px;
+    color: #1262AF;
+    font-weight: 500;
+}
+
+.box-details img{
+    width: 107px;
+}
+
+.box-details-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-details-bottom .text1{
+    font-size: 16px;
+    font-weight: 400;   
+    color: #646468;
+}
+
+.box-details-bottom .text2{
+    color: #8E8E94;
+}
+
+.box-price{
+    width: 128px;
+    height: 100px;
+    border-left: 1px solid #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FBA403;
+}
+
+.search-s2-center button{
+    width: 220px;
+    height: 72px;
+    border: none;
+    background-color: #1262AF;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 4%;
+
+}
+
+.search-s2-right{
+    width: 257px;
+    height: 635px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.search-s2-right p{
+    height: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4%;
+    color: #1262AE;
+    border-bottom: 1px solid #EAEAEA    ;
+}
+
+.booking-cards{
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.booking-card{
+    width: 257px;
+    height: 166px;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.airplane-price{
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.airplane-price img{
+    width: 16px;
+}
+
+.airplane-price nav{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7E8B97;
+}
+
+.locations{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    background-color: #F8F9FB;
+    width: 237px;
+    height: 52px;
+}
+
+.locations .left{
+    width: 79px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.locations-depCode{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1262AF;
+}
+
+.locations-depName{
+    font-size: 12px;
+    color: #7E8B97;
+}
+
+.locations .right{
+    text-align: end;
+}
+
+.booking-card .details{
+    width: 237px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-card .details nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 108px;
+    font-size: 12px;
+    color: #7E8B97;
+}
+
+.booking-card .provider{
+    width: 237px;
+    height: 24px;
+    border-top: 1px solid #EAEAEA;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-card .provider .text1{
+    font-size: 12px;
+    color: #7E8B97; 
+}
+
+.booking-card .provider .text1 span{
+    color: #457EFF;
+}
+
+.booking-card .provider .text2{
+    font-size: 12px;
+    color: #FBA403;
+    font-weight: 600;
+}
+
+.booking-cards button{
+    width: 257px;
+    height: 30px;
+    border: none;
+    background-color: #1262AF0F;
+    border-radius: 3px;
+    color: #1262AF;
+    font-size: 12px;
+    
+}

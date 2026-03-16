@@ -1,0 +1,355 @@
+.section-1 {
+    background: url(../img/Banner\ \ Background.svg), linear-gradient(78.78deg, #114F8B -3.12%, #2A9AD7 103.77%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    background-position: bottom;
+}
+
+.section-1-title {
+    font-size: 61px;
+    font-weight: 800;
+    padding-top: 180px;
+    color: white;
+    text-align: center;
+}
+
+.section-1-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search-form {
+    width: 1160px;
+    height: 158px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    justify-self: center;
+    margin-top: 45px;
+}
+
+.search-form-top {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.radio-inputs {
+    width: 216px;
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radio1 {
+    display: flex;
+    gap: 8px;
+    color: #303030DE;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-form-bottom {
+    width: 1120px;
+    height: 66px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form-bottom input {
+    width: 305px;
+    height: 56px;
+    border: 1px solid #0000003B;
+    border-radius: 4px;
+}
+
+.inp-box {
+    position: relative;
+}
+
+.search-form-bottom label {
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    color: #00000099;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.search-form-bottom button{
+    width: 164px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F99A0E;
+    color: white;
+    font-size: 15px;    
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input:focus{
+    outline: none;
+    padding-left: 15px;
+}
+
+.section-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-2-title{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #303030;
+    margin-bottom: 25px;
+}
+
+.section-2-parent1{
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-2-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2-top-box{
+    padding: 20px;
+    border: 1px solid #EAEAEA;
+    width: 632px;
+    height: 112px;
+    border-radius: 8px;
+}
+
+.section-2-top-box nav{
+    display: flex;
+    justify-content: space-between;
+    width: 592px;
+    align-items: center;
+}
+
+.section-2-top-box nav p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1262AE;
+    text-transform: uppercase;
+}
+
+.section-2-box-date{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-2-bottom{
+    height: 132px;
+}
+
+
+.section-2-bottom-title{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #CECECE;
+}
+
+.trip-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.trip-menus-item{
+    width: 66px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.trip-menus-item p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #8E8E94;
+}
+
+.section-2-parent2{
+    margin-top: 80px;
+}
+
+.section-2-parent2-title2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1262AE;
+    text-transform: uppercase;
+}
+
+.view-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.view-link a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1262AE;
+    text-decoration: none;
+}
+
+.section-2-parent2-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #303030;
+}
+
+.section-2-parent2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.section-2-card-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.section-2-card1{
+    width: 288px;
+    height: 327px;
+    border-radius: 10px;
+    border: 1px solid #EAEAEA;
+}
+
+.section-2-card-text{
+    width: 256px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.card-title{
+    font-size: 20px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.section-2-card-text .right{
+    font-size: 32px;
+    color: #1262AF;
+    font-weight: 900;
+
+}
+
+.section-2-card2{
+    width: 296px;
+    height: 442px;
+    border-radius: 10px;
+    border: 1px solid #EAEAEA;  
+    padding: 13px;
+}
+
+.stay-details{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.card2-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8E8E94;
+}
+
+.card2-title{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #303030;
+}
+
+.stay-details nav{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card2-price{
+    font-size: 18px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.card2-rating{
+    margin-top: 23px;
+    display: flex;
+    gap: 10px;
+}
+.card2-rating nav{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #303030;
+}
+
+.card2-rating p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1262AF;
+}
+
+.section-2-card2 button{
+    width: 270px;
+    height: 46px;
+    border: 1px solid #CCDCEC;
+    border-radius: 4px;
+    background: none;
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1262AF;
+    text-transform: uppercase;
+}
