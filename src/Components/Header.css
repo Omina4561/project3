@@ -37,3 +37,11 @@ header{
 .active{
     color: #1262AF;
 }
+
+header select{
+    border: none;
+}
+
+header select:focus{
+    outline: none;
+}

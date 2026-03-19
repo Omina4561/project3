@@ -3,7 +3,15 @@ import img from '../img/Symbols.svg'
 import img2 from '../img/entypo-social_facebook-with-circle.svg'
 import img3 from '../img/entypo-social_instagram-with-circle.svg'
 import img4 from '../img/entypo-social_twitter-with-circle.svg'
+import { useTranslation } from 'react-i18next'
+import i18n from '../i18n/i18n'
 export default function Footer() {
+    const {t} = useTranslation()
+
+    const changeLanguage = (e) => {
+        i18n.changeLanguage(e.target.value)
+    }
+
     return (
         <>
             <footer>
@@ -11,7 +19,7 @@ export default function Footer() {
                     <div className="foot">
                         <div className="foot-left">
                             <img src={img} alt="" className='foot-logo' />
-                            <div className="foot-text">Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings. We also have all your flight needs in you online shop.</div>
+                            <div className="foot-text">{t('Fickle Flight is your one-stop travel portal. We offer hassle free flight and hotel bookings. We also have all your flight needs in you online shop')}.</div>
                             <div className="social-icons">
                                 <img src={img2} alt="" />
                                 <img src={img3} alt="" />
@@ -21,25 +29,25 @@ export default function Footer() {
                         <div className="foot-line"></div>
                         <div className="foot-right">
                             <div className="foot-links">
-                                <div className="foot-link-title">Company</div>
-                                <a href="">About Us</a>
-                                <a href="">News</a>
-                                <a href="">Careers</a>
-                                <a href="">How we work</a>
+                                <div className="foot-link-title">{t('Company')}</div>
+                                <a href="">{t('About Us')}</a>
+                                <a href="">{t('News')}</a>
+                                <a href="">{t('Careers')}</a>
+                                <a href="">{t('How we work')}</a>
                             </div>
                             <div className="foot-links">
-                                <div className="foot-link-title">Support</div>
-                                <a href="">Account</a>
-                                <a href="">Support Center</a>
+                                <div className="foot-link-title">{t('Support')}</div>
+                                <a href="">{t('Account')}</a>
+                                <a href="">{t('Support Center')}</a>
                                 <a href="">FAQ</a>
-                                <a href="">Accessibility</a>
+                                <a href="">{t('Accessibility')}</a>
                             </div>
                             <div className="foot-links">
-                                <div className="foot-link-title">More</div>
-                                <a href="">Covid Advisory</a>
-                                <a href="">Airline Fees</a>
-                                <a href="">Tips</a>
-                                <a href="">Quarantine Rules</a>
+                                <div className="foot-link-title">{t('More')}</div>
+                                <a href="">{t('Covid Advisory')}</a>
+                                <a href="">{t('Airline Fees')}</a>
+                                <a href="">{t('Tips')}</a>
+                                <a href="">{t('Quarantine Rules')}</a>
                             </div>
                         </div>
                     </div>

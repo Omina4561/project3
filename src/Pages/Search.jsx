@@ -8,76 +8,84 @@ import img6 from '../img/american-airlines.svg'
 import img7 from '../img/Flight Icon.svg'
 import img8 from '../img/Class icon.svg'
 import img9 from '../img/Calender.svg'
+import { useTranslation } from 'react-i18next'
+import i18n from '../i18n/i18n'
 export default function Search() {
+    const {t} = useTranslation()
+    
+    const changeLanguage = (e) =>{
+        i18n.changeLanguage(e.target.value)
+    }
+
     return (
         <>
             <div className="search-section-1">
                 <div className="container">
-                    <div className="search-s1-title">Where are you off too?</div>
+                    <div className="search-s1-title">{t('Where are you off too?')}</div>
                     <form>
                         <div className="search-form-bottom">
                             <div className="inp-box">
-                                <label>Departure</label>
+                                <label>{t('Departure')}</label>
                                 <input type="text" />
                             </div>
                             <div className="inp-box">
-                                <label>Arrival</label>
+                                <label>{t('Arrival')}</label>
                                 <input type="text" />
                             </div>
                             <div className="inp-box">
-                                <label>Date</label>
+                                <label>{t('Date')}</label>
                                 <input type="text" />
                             </div>
-                            <button>Search flights</button>
+                            <button>{t('Search flights')}</button>
                         </div>
                     </form>
                 </div>
             </div>
             <div className="search-section-2">
                 <div className="search-s2-left">
-                    <p>10 out of 177 Results</p>
+                    <p>{t('10 out of 177 Results')}</p>
                     <div className="search-s2-left-box">
-                        <div className="title">Stops</div>
+                        <div className="title">{t('Stops')}</div>
                         <nav>
                             <div className="text">
                                 <input type="checkbox" />
-                                1 Stop
+                                1 {t('Stop')}
                             </div>
                             <div className="text">
                                 <input type="checkbox" />
-                                2 Stop
+                                2 {t('Stop')}
                             </div>
                         </nav>
                     </div>
                     <div className="search-s2-left-box">
-                        <div className="title">Booking Options</div>
+                        <div className="title">{t('Booking Options')}</div>
                         <nav>
                             <div className="text">
                                 <input type="checkbox" />
-                                Book on Fickleflight
+                                {t('Book on Fickleflight')}
                             </div>
                             <div className="text">
                                 <input type="checkbox" />
-                                Official Airline Websites
+                                {t('Official Airline Websites')}
                             </div>
                         </nav>
                     </div>
                     <div className="search-s2-left-box">
-                        <div className="title">Flight Experience</div>
+                        <div className="title">{t('Flight Experience')}</div>
                         <nav>
                             <div className="text">
                                 <input type="checkbox" />
-                                No overnight flights
+                                {t('No overnight flights')}
                             </div>
                             <div className="text">
                                 <input type="checkbox" />
-                                No long stop-overs
+                                {t('No long stop-overs')}
                             </div>
                         </nav>
                     </div>
                     <div className="line"></div>
                     <div className="search-s2-left-box">
-                        <div className="title">Airlines</div>
+                        <div className="title">{t('Airlines')}</div>
                         <nav>
                             <div className="text">
                                 <input type="checkbox" />
@@ -91,7 +99,7 @@ export default function Search() {
                     </div>
                 </div>
                 <div className="search-s2-center">
-                    <p>10 out of 177 Results</p>
+                    <p>{t('10 out of 177 Results')}</p>
                     <div className="box">
                         <div className="box-title">
                             <img src={img} alt="" />
@@ -105,7 +113,7 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">33H 10M, 1-stop</div>
+                                <div className="text2">33H 10M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
@@ -124,7 +132,7 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">15H 10M, 2-stops</div>
+                                <div className="text2">15H 10M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
@@ -143,7 +151,7 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">17H 30M, 1-stop</div>
+                                <div className="text2">17H 30M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
@@ -162,7 +170,7 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">19H 15M, 1-stop</div>
+                                <div className="text2">19H 15M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
@@ -181,7 +189,7 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">17H 30M, 1-stop</div>
+                                <div className="text2">17H 30M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
@@ -200,7 +208,7 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">33H 10M, 1-stop</div>
+                                <div className="text2">33H 10M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
@@ -219,16 +227,16 @@ export default function Search() {
                             </div>
                             <div className="box-details-bottom">
                                 <div className="text1">SIN</div>
-                                <div className="text2">17H 30M, 1-stop</div>
+                                <div className="text2">17H 30M, 1-{t('stop')}</div>
                                 <div className="text1">LAX</div>
                             </div>
                         </div>
                         <div className="box-price">S$ 859</div>
                     </div>
-                    <button>Show more results</button>
+                    <button>{t('Show more results')}</button>
                 </div>
                 <div className="search-s2-right">
-                    <p>Recently booked</p>
+                    <p>{t('Recently booked')}</p>
                     <div className="booking-cards">
                         <div className="booking-card">
                             <div className="airplane-price">
@@ -332,7 +340,7 @@ export default function Search() {
                                 <div className="text2">3s ago!</div>
                             </div>
                         </div>
-                        <button>Show more</button>
+                        <button>{t('Show more')}</button>
                     </div>
                 </div>
             </div>
